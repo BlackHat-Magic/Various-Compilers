@@ -9,7 +9,7 @@ We wasting time boys.
 
 ## Overview
 
-Quick and dirty compilers for various languages.
+Quick and dirty compilers and repls for various languages.
 
 ### Goals
 
