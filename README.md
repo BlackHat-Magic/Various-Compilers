@@ -1,34 +1,39 @@
 <div align="center">
 
-# Project Title
+# Various Compilers
 
-Project Description
+We wasting time boys.
 
 </div>
 
 
 ## Overview
 
-Project details
+Quick and dirty compilers for various languages.
 
 ### Goals
 
-List main objectives, problems you aim to solve.
+I'm pretty sure most of these aren't super useful...
 
-### Features
+### Languages (Alphabetical)
 
-- [x] Feature 1
-- [x] Feature 2
-- [ ] Feature 3
+- [ ] AssemblyScript...?
+- [ ] Brainfuck
+- [ ] Janet
+- [ ] JavaScript...?
+	- JerryScript? Duktape?
+- [ ] Lua
+- [ ] Pawn
+- [ ] Rexx
+- [ ] Rhai (native Rust?)
+- [ ] Rune
+- [ ] s7 scheme
+- [ ] TCL
+- [ ] Wren
 
-### Software Stack / Technologies Used
-
-- Language: ...
-- Framework: ...
-- Database: ...
-- etc...
+TODO: https://awesome-go.com/embeddable-scripting-languages/
 
 ## Quickstart
 
-Summary for developers with links to setup, build, test instructions in wiki or docs.
+TODO
 
