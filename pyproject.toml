@@ -4,4 +4,12 @@ version = "0.1.0"
 description = "Compilers and repls for various programming languages"
 readme = "README.md"
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "click>=8.4.1",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.15.15",
+    "ty>=0.0.42",
+]
