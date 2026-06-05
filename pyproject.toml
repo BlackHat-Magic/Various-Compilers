@@ -17,5 +17,5 @@ dev = [
 [tool.uv.workspace]
 members = [
 	"py_apps/*",
-	# "libs/*"
+	"py_libs/*"
 ]
