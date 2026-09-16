@@ -1,0 +1,17 @@
+[project]
+name = "brainfuck-py"
+version = "0.1.0"
+description = "A simple brainfuck interpreter and repl"
+readme = "README.md"
+authors = [
+    { name = "BlackHat-Magic", email = "contact@lukeh.xyz" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+repl = "brainfuck_py:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"

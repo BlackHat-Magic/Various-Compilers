@@ -1,7 +1,0 @@
-[project]
-name = "rv64-py"
-version = "0.1.0"
-dependencies = [
-    "numpy>=2.4.6",
-]
-

@@ -1,0 +1,25 @@
+[project]
+name = "rv64-py"
+version = "0.1.0"
+description = "A simple Python RV64G virtual machine"
+readme = "README.md"
+authors = [
+    { name = "BlackHat-Magic", email = "contact@lukeh.xyz" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "numpy>=2.5.3",
+]
+
+[project.scripts]
+rv64-py = "rv64_py:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ruff>=0.16.7",
+    "ty>=0.0.81",
+]
